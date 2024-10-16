@@ -1,143 +1,151 @@
 [[wolfSSL]]
 arch = "aarch64"
-git-tree-sha1 = "804dca3f132547e86e3b8a68dfc352cb1ddd08b8"
+git-tree-sha1 = "75c567e96d339e501b8171219ec16eb982e49237"
 os = "macos"
 
     [[wolfSSL.download]]
-    sha256 = "cfbf0db2621766a444d93b40dfe3ee8278875cf508291a1f71d633f4104838e1"
-    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v4.8.1+0/wolfSSL.v4.8.1.aarch64-apple-darwin.tar.gz"
+    sha256 = "304466dccef24e14cf03748cac31289cbb80f9a1e2a29b40192bd0177cb1cdcf"
+    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v5.7.2+0/wolfSSL.v5.7.2.aarch64-apple-darwin.tar.gz"
 [[wolfSSL]]
 arch = "aarch64"
-git-tree-sha1 = "3bb32ce7f91beff5fede25421b013ac024d3e56d"
+git-tree-sha1 = "5148453d66716d786d3263c7789390971ee4a324"
 libc = "glibc"
 os = "linux"
 
     [[wolfSSL.download]]
-    sha256 = "a52b8ef0e8cfc8848eefab3ba5a14d575f21d444bab70b4eadc953f3957b85c5"
-    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v4.8.1+0/wolfSSL.v4.8.1.aarch64-linux-gnu.tar.gz"
+    sha256 = "d35499b602e8ee09d43cb97e3fd2e4cca6e9ae6c2d7093dd34a7b5f4363c3046"
+    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v5.7.2+0/wolfSSL.v5.7.2.aarch64-linux-gnu.tar.gz"
 [[wolfSSL]]
 arch = "aarch64"
-git-tree-sha1 = "4f6f436bd89cc25b378b6d3bb8f428265ed2dbf6"
+git-tree-sha1 = "461469cbf4ce2c55ff56950d973d3fde94cc89e2"
 libc = "musl"
 os = "linux"
 
     [[wolfSSL.download]]
-    sha256 = "5b09bc909fab71d08541f5bcc5e36e093cb9898907422a1cfe72a67bc0928ae4"
-    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v4.8.1+0/wolfSSL.v4.8.1.aarch64-linux-musl.tar.gz"
+    sha256 = "60192084ccaf7ef501b97c6fb48b8b75d50bb96d0afa1ded80aacf0240333942"
+    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v5.7.2+0/wolfSSL.v5.7.2.aarch64-linux-musl.tar.gz"
 [[wolfSSL]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "9a58d9ce423269330022f8630fd36273ae80c217"
-libc = "glibc"
-os = "linux"
-
-    [[wolfSSL.download]]
-    sha256 = "ee3d28523433613927bee5ae44b71a0859f1d878789d327c54066f116a32496c"
-    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v4.8.1+0/wolfSSL.v4.8.1.armv6l-linux-gnueabihf.tar.gz"
-[[wolfSSL]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "5d6c28fd6bd52ac2953959ed60b4d748833e2f32"
-libc = "musl"
-os = "linux"
-
-    [[wolfSSL.download]]
-    sha256 = "29ed6745433373cb98517b93e82d48109781ef97b05c4bb9913d59886d3cd7d0"
-    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v4.8.1+0/wolfSSL.v4.8.1.armv6l-linux-musleabihf.tar.gz"
-[[wolfSSL]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "5dc7a24017e7c7f64d2c9557a38d79b524321be5"
-libc = "glibc"
-os = "linux"
-
-    [[wolfSSL.download]]
-    sha256 = "58fb7aab3e3cf6710229e2532781898eba1b8b09e5c0a02fee39dc53e7a9ae33"
-    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v4.8.1+0/wolfSSL.v4.8.1.armv7l-linux-gnueabihf.tar.gz"
-[[wolfSSL]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "acfe22ba9e242ff736099b098603e118943b7f9c"
-libc = "musl"
-os = "linux"
-
-    [[wolfSSL.download]]
-    sha256 = "674acf075742d66e055bdb9227a1b1d6a79730f6a4c794d224f451b0d68fe4af"
-    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v4.8.1+0/wolfSSL.v4.8.1.armv7l-linux-musleabihf.tar.gz"
-[[wolfSSL]]
-arch = "i686"
-git-tree-sha1 = "3259afafb72c5077a8b14cbbde1233986eae15b6"
-libc = "glibc"
-os = "linux"
-
-    [[wolfSSL.download]]
-    sha256 = "a5c4d22ae1bf1fa188c1a61bff4fb9c11816bfec77984c1daacdac1d44a64f21"
-    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v4.8.1+0/wolfSSL.v4.8.1.i686-linux-gnu.tar.gz"
-[[wolfSSL]]
-arch = "i686"
-git-tree-sha1 = "5f54b3a87e3b9f421b359d63969615cc0755077c"
-libc = "musl"
-os = "linux"
-
-    [[wolfSSL.download]]
-    sha256 = "44df34151b34c26edf5aa1c895cdbe81aad4be960e07dc403db74bdbeefb92fd"
-    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v4.8.1+0/wolfSSL.v4.8.1.i686-linux-musl.tar.gz"
-[[wolfSSL]]
-arch = "i686"
-git-tree-sha1 = "72aafd2f2f04daacd2e2bb4e7613f8d40d3f4580"
-os = "windows"
-
-    [[wolfSSL.download]]
-    sha256 = "e0da4166c4a517f48c14edcd30022120ac1d9ccf5cd86712ee0f1f58a85a7f6f"
-    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v4.8.1+0/wolfSSL.v4.8.1.i686-w64-mingw32.tar.gz"
-[[wolfSSL]]
-arch = "powerpc64le"
-git-tree-sha1 = "0530abb6e93e995ca713d971e946774c9440295e"
-libc = "glibc"
-os = "linux"
-
-    [[wolfSSL.download]]
-    sha256 = "dd36b923aab81ff2ea421dfdabe6e697706e5a28133a846a0c9095a6c8fe5fdb"
-    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v4.8.1+0/wolfSSL.v4.8.1.powerpc64le-linux-gnu.tar.gz"
-[[wolfSSL]]
-arch = "x86_64"
-git-tree-sha1 = "7e306c92eb502b9390abc912ced56a044d44f9a3"
-os = "macos"
-
-    [[wolfSSL.download]]
-    sha256 = "46c87583324904483505b9ee40d77cef5eaed93967235dcf3c0019f87126dedb"
-    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v4.8.1+0/wolfSSL.v4.8.1.x86_64-apple-darwin.tar.gz"
-[[wolfSSL]]
-arch = "x86_64"
-git-tree-sha1 = "41987dd2dab3987977b60b99dfecded9871ecfeb"
-libc = "glibc"
-os = "linux"
-
-    [[wolfSSL.download]]
-    sha256 = "ca389228856608df4591e2ccb49fe642b3133d191c14437cd443dee6c3961212"
-    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v4.8.1+0/wolfSSL.v4.8.1.x86_64-linux-gnu.tar.gz"
-[[wolfSSL]]
-arch = "x86_64"
-git-tree-sha1 = "27f522b7cdcf17b1eaf91ca166e372df582bc308"
-libc = "musl"
-os = "linux"
-
-    [[wolfSSL.download]]
-    sha256 = "558e6e7c93e4ec0f9b126e1d22286405994c157644fa814ab5e61d61173f754c"
-    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v4.8.1+0/wolfSSL.v4.8.1.x86_64-linux-musl.tar.gz"
-[[wolfSSL]]
-arch = "x86_64"
-git-tree-sha1 = "db9654a9e22cce4a238a27b7d64156eb00fc6046"
+arch = "aarch64"
+git-tree-sha1 = "1450a0d6d68d4c53a369c7732ed3f0d65bb93827"
 os = "freebsd"
 
     [[wolfSSL.download]]
-    sha256 = "8ccf3dd75d27ed6ce3590fdb7a16d3a612f22ff03c741baaa9b98214627329cc"
-    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v4.8.1+0/wolfSSL.v4.8.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "cdf38c0c85218ea366c3aa974e76d536a79a7b6a9980f2d5400b8764905ab905"
+    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v5.7.2+0/wolfSSL.v5.7.2.aarch64-unknown-freebsd.tar.gz"
 [[wolfSSL]]
-arch = "x86_64"
-git-tree-sha1 = "9b6503a6af55066bda4ccb412df8be6721fe704a"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "53045463b575681131a262dd327f7d44873414fe"
+libc = "glibc"
+os = "linux"
+
+    [[wolfSSL.download]]
+    sha256 = "83d3f73afd3d0be971fe709c2934008cb33351976b2476596a04078051c44ec9"
+    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v5.7.2+0/wolfSSL.v5.7.2.armv6l-linux-gnueabihf.tar.gz"
+[[wolfSSL]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "4df046b9fe0bc06c4b0bcde74b7235b34b5d7ffb"
+libc = "musl"
+os = "linux"
+
+    [[wolfSSL.download]]
+    sha256 = "7101cd520830ab67346ef44cedc41464e00a731b76e3c5bf12d515c741f957e4"
+    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v5.7.2+0/wolfSSL.v5.7.2.armv6l-linux-musleabihf.tar.gz"
+[[wolfSSL]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "7470b94265abd520a5c2f2a913a7dc200f511d36"
+libc = "glibc"
+os = "linux"
+
+    [[wolfSSL.download]]
+    sha256 = "3ddf465fc88eb24d9f95be75892588fb50f038befad2596ab4c90dcf80a3557f"
+    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v5.7.2+0/wolfSSL.v5.7.2.armv7l-linux-gnueabihf.tar.gz"
+[[wolfSSL]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "6bbc66dde3f56483693c4e3292163732bdd2c953"
+libc = "musl"
+os = "linux"
+
+    [[wolfSSL.download]]
+    sha256 = "60644d8b796ecfb7e92e1c3206fdfa72d24fc1502896873c1891ed2afde2932b"
+    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v5.7.2+0/wolfSSL.v5.7.2.armv7l-linux-musleabihf.tar.gz"
+[[wolfSSL]]
+arch = "i686"
+git-tree-sha1 = "a8e036710757184f38d46eeb305c246e502af37f"
+libc = "glibc"
+os = "linux"
+
+    [[wolfSSL.download]]
+    sha256 = "f7318604b08e39fef9eeb8fcbcbeac897762c850e22a6a1d0bcb4d3ecda653ae"
+    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v5.7.2+0/wolfSSL.v5.7.2.i686-linux-gnu.tar.gz"
+[[wolfSSL]]
+arch = "i686"
+git-tree-sha1 = "575f792ad170827f2a98d3bf33ccdf325c90fc81"
+libc = "musl"
+os = "linux"
+
+    [[wolfSSL.download]]
+    sha256 = "3d9cb6fdc1ade61463296c56ffa799f348c33c331318397ca4f6eb485da862db"
+    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v5.7.2+0/wolfSSL.v5.7.2.i686-linux-musl.tar.gz"
+[[wolfSSL]]
+arch = "i686"
+git-tree-sha1 = "ce86d8f2c189abb01d2a3696b30ac10f187b9822"
 os = "windows"
 
     [[wolfSSL.download]]
-    sha256 = "9bc5eae2d5d1a9c0dc3a6330f706aa5c495650c4a85cc4e34d8329b1d5853da3"
-    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v4.8.1+0/wolfSSL.v4.8.1.x86_64-w64-mingw32.tar.gz"
+    sha256 = "620dbec2e593bbfc64195b2caa43d2f53ff22d05d9ebb14dfddf59c15d2dee82"
+    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v5.7.2+0/wolfSSL.v5.7.2.i686-w64-mingw32.tar.gz"
+[[wolfSSL]]
+arch = "powerpc64le"
+git-tree-sha1 = "af73f8dd2f3d63033c23fbb2f1503d06c9364478"
+libc = "glibc"
+os = "linux"
+
+    [[wolfSSL.download]]
+    sha256 = "6b10e2d21895a7315339e9810628472b29df34ffc53d3bd56a3770348f05df45"
+    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v5.7.2+0/wolfSSL.v5.7.2.powerpc64le-linux-gnu.tar.gz"
+[[wolfSSL]]
+arch = "x86_64"
+git-tree-sha1 = "a6bac6e24f3adcac02b677829d95ed4e905c66a2"
+os = "macos"
+
+    [[wolfSSL.download]]
+    sha256 = "0d4e3793c9f0edf3ea45ec5791e03bae457c8f3a03d34fd7194a9209d4a48efb"
+    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v5.7.2+0/wolfSSL.v5.7.2.x86_64-apple-darwin.tar.gz"
+[[wolfSSL]]
+arch = "x86_64"
+git-tree-sha1 = "eef026dd17fa1c5eb8d84499ba0bf9d6c4aff0ad"
+libc = "glibc"
+os = "linux"
+
+    [[wolfSSL.download]]
+    sha256 = "9830db198750e671ea1d690fc4eff47de3d6603cbdc82224520b92d543b0e2e8"
+    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v5.7.2+0/wolfSSL.v5.7.2.x86_64-linux-gnu.tar.gz"
+[[wolfSSL]]
+arch = "x86_64"
+git-tree-sha1 = "da0270a0d102b3d8f14da8416e39c2a4f1698d34"
+libc = "musl"
+os = "linux"
+
+    [[wolfSSL.download]]
+    sha256 = "e3285af483902a2d620cb4da45ef513b96d5307d94a3d8a50d60d533d49c94e9"
+    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v5.7.2+0/wolfSSL.v5.7.2.x86_64-linux-musl.tar.gz"
+[[wolfSSL]]
+arch = "x86_64"
+git-tree-sha1 = "edf0116516cfce62b011662a311ce946700d36aa"
+os = "freebsd"
+
+    [[wolfSSL.download]]
+    sha256 = "b1c8d57701ec00aa4cbceabe36ba9368c36eb8867f983235c49b5a58c661c3a8"
+    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v5.7.2+0/wolfSSL.v5.7.2.x86_64-unknown-freebsd.tar.gz"
+[[wolfSSL]]
+arch = "x86_64"
+git-tree-sha1 = "12f5d8eceb1ecefaec6c6f316e4d1c12389bb419"
+os = "windows"
+
+    [[wolfSSL.download]]
+    sha256 = "d0bb9c73debcfe2afa65d954d726a3deb9edfd3bca8545324888e49aa651f96f"
+    url = "https://github.com/JuliaBinaryWrappers/wolfSSL_jll.jl/releases/download/wolfSSL-v5.7.2+0/wolfSSL.v5.7.2.x86_64-w64-mingw32.tar.gz"

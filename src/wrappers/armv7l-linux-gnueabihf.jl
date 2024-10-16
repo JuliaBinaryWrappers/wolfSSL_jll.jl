@@ -2,7 +2,7 @@
 export libwolfssl
 
 JLLWrappers.@generate_wrapper_header("wolfSSL")
-JLLWrappers.@declare_library_product(libwolfssl, "libwolfssl.so.24")
+JLLWrappers.@declare_library_product(libwolfssl, "libwolfssl.so.42")
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(

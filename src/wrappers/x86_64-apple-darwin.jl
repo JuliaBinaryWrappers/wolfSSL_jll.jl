@@ -2,12 +2,12 @@
 export libwolfssl
 
 JLLWrappers.@generate_wrapper_header("wolfSSL")
-JLLWrappers.@declare_library_product(libwolfssl, "@rpath/libwolfssl.24.dylib")
+JLLWrappers.@declare_library_product(libwolfssl, "@rpath/libwolfssl.42.dylib")
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libwolfssl,
-        "lib/libwolfssl.24.3.0.dylib",
+        "lib/libwolfssl.42.2.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
